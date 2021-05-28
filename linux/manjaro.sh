@@ -7,7 +7,7 @@ test $? -eq 0 || exit 1 "this script needs sudo priviledges"
 
 echo "installing pacman apps"
 sudo pacman -Syu
-while read -r a ; do sudo pacman -S $a --noconfirm; done < <(cat << "EOF"
+while read -r a ; do sudo pacman -S $a --noconfirm --needed; done < <(cat << "EOF"
     discord
     fish
     ttf-fira-code

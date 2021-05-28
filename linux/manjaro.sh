@@ -12,8 +12,11 @@ while read -r a ; do sudo pacman -S $a --noconfirm --needed; done < <(cat << "EO
     fish
     ttf-fira-code
     torbrowser-launcher
+    libreoffice-fresh
+    wine
 EOF
 )
+sudo pacman -S --noconfirm --asdeps --needed $(pacman -Si wine | sed -n '/^Opt/,/^Conf/p' | sed '$d' | sed 's/^Opt.*://g' | sed 's/^\s*//g' | tr '\n' ' ')
 
 echo "installing snap apps"
 sudo snap refresh

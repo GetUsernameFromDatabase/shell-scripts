@@ -6,7 +6,7 @@ sudo -n true
 test $? -eq 0 || exit 1 "this script needs sudo priviledges"
 
 echo "installing pacman apps"
-pacman -Syu
+sudo pacman -Syu
 while read -r a ; do sudo pacman -S $a --noconfirm; done < <(cat << "EOF"
     discord
     fish
@@ -16,6 +16,7 @@ EOF
 )
 
 echo "installing snap apps"
+sudo snap refresh
 while read -r a ; do sudo snap install $a; done < <(cat << "EOF"
     code --classic
     teams

@@ -8,7 +8,7 @@ choco feature enable -n allowGlobalConfirmation
 
 # MISC
 choco install shutup10 # "OOSU10" > win+R
-choco install microsoft-teams
+choco install defaultprogramseditor
 choco install qbittorrent
 
 # EDITORS
@@ -25,7 +25,8 @@ choco install paint.net
 
 # BROWSERS
 choco install firefox
-choco install tor-browser 
+choco install tor-browser
+choco install microsoft-teams # big thunk
 
 # DEV
 choco install git

@@ -8,11 +8,13 @@ test $? -eq 0 || exit 1 "this script needs sudo priviledges"
 echo "installing pacman apps"
 sudo pacman -Syu
 while read -r a ; do sudo pacman -S $a --noconfirm --needed; done < <(cat << "EOF"
+    seahorse
     discord
     fish
     ttf-fira-code
     torbrowser-launcher
     libreoffice-fresh
+    nodejs npm
     wine
 EOF
 )
@@ -23,5 +25,6 @@ sudo snap refresh
 while read -r a ; do sudo snap install $a; done < <(cat << "EOF"
     code --classic
     teams
+    spotify
 EOF
 )

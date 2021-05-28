@@ -45,8 +45,9 @@ choco install yeoman
 # DEVOPS
 choco install sysinternals
 choco install putty
-choco install ccleaner
 choco install speccy
+choco install ccleaner
+choco install defraggler
 choco install filezilla
 #choco install ilspy 
 choco install malwarebytes

@@ -36,7 +36,6 @@ choco install gradle
 choco install python3
 choco install autohotkey
 # Cxx
-choco install nugetpackageexplorer
 choco install linqpad
 ## NODE
 choco install nodejs

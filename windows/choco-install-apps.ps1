@@ -21,12 +21,12 @@ choco install 7zip
 # MEDIA
 choco install k-litecodecpackfull
 choco install paint.net
-# choco install spotify # I've it through windows store
+choco install wincdemu
 
 # BROWSERS
 choco install firefox
 choco install tor-browser
-choco install microsoft-teams # big thunk
+choco install microsoft-teams # big thonk
 
 # DEV
 choco install git

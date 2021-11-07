@@ -38,8 +38,7 @@ choco install autohotkey
 # Cxx
 choco install linqpad
 ## NODE
-choco install nodejs
-choco install yeoman
+choco install nvm
 
 # DEVOPS
 choco install sysinternals

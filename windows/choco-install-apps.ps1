@@ -10,6 +10,7 @@ choco feature enable -n allowGlobalConfirmation
 choco install shutup10 # "OOSU10" > win+R
 choco install defaultprogramseditor
 choco install qbittorrent
+choco install autohotkey
 
 # EDITORS
 choco install firacode # Font for editors
@@ -32,11 +33,8 @@ choco install microsoft-teams # big thonk
 choco install git
 choco install fiddler
 choco install gradle
-#choco install mongodb
 choco install python3
-choco install autohotkey
-# Cxx
-choco install linqpad
+choco install xampp-81
 ## NODE
 choco install nvm
 

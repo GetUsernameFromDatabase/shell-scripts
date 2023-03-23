@@ -10,7 +10,6 @@ choco feature enable -n allowGlobalConfirmation
 choco install chocolateygui
 choco install qbittorrent
 choco install autohotkey
-choco install wsl2
 
 # PERIPHERAL
 choco install lghub

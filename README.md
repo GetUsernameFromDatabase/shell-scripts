@@ -11,9 +11,9 @@ Feel free to explore these scripts, and I hope you find them as useful as I have
 ## Windows
 
 Scripts for Windows that I find useful.
-> For more details, see the [Windows Scripts README](windows/README.md).
+> For more details, see [Windows Scripts](./main/windows).
 
 ## Linux
 
 Scripts for Linux that I find useful.
-> For more details, see the [Linux Scripts README](linux/README.md).
+> For more details, see [Linux Scripts](./main/linux).
